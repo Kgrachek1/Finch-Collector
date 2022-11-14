@@ -1,0 +1,24 @@
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(175, 228, 234);
+}
+nav > a {
+   color:rgb(7, 96, 173)
+}
+body {
+
+}
+
+h3 {
+    display:flex;
+    justify-content: center;
+}
+h1 {
+    display:flex;
+    justify-content: center;
+}
+h5 {
+    display:flex;
+    justify-content: center;
+}
