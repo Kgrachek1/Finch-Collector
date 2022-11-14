@@ -1,0 +1,24 @@
+{% extends 'home.html' %}
+{% block content %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+<h1>Finch List</h1>
+
+{% for finch in finches %}
+  <div class="card">
+    <div class="card-content">
+      <span class="card-title">{{ finch.name }}</span>
+      <p>Age: {{ finch.age }}</p>
+      <p>Name: {{ finch.name }}</p>
+      <p>Description: {{ age.description }}</p>
+      {% if finch.age > 0 %}
+        <p>Age: {{ finch.age }}</p>
+      {% else %}
+        <p>Color: </p>
+      {% endif %}
+    </div>
+  </div>
+
+{% endfor %}
+
+{% endblock %}
