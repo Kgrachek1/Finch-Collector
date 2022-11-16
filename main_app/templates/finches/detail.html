@@ -1,4 +1,4 @@
-{% extends 'finch.html' %}
+{% extends 'base.html' %}
 {% block content %}
 
 <h1>Finch Details</h1>
@@ -11,9 +11,14 @@
     {% if finch.age > 0 %}
       <p>Age: {{ finch.age }}</p>
     {% else %}
-      <p>Age: EGG</p>
+      <p>Age: </p>
     {% endif %}
   </div>
-  
+  <div class="card-action">
+        <a class="blue-text" href="{% url 'finches_update' finch.id %}">Edit</a>
+        <a class="red-text" href="{% url 'finches_delete' finch.id %}">Delete</a>
+      </div>
+</div>
 
 {% endblock %}
+
