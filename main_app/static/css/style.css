@@ -3,23 +3,3 @@ nav {
     justify-content: space-around;
     background-color: rgb(175, 228, 234);
 }
-nav  {
-   color:rgb(162, 197, 227)
-}
-body {
-display: flex;
-justify-content: flex-start;
-}
-
-h3 {
-    display:flex;
-    justify-content: center;
-}
-h1 {
-    display:flex;
-    justify-content: center;
-}
-h5 {
-    display:flex;
-    justify-content: center;
-}
